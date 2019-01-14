@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: aoic-spring-boot
+  labels:
+   app: aoic-spring-boot
+spec:
+  containers:
+  - name: aoic-spring-boot
+    image: ragudiko/aoic-spring-boot
+    ports:
+      - containerPort: 8090

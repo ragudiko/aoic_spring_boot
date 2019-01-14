@@ -1,0 +1,16 @@
+{
+  "name": "aoic_spring_boot",
+  "version": "1.0.0",
+  "description": "This is sample demo to showcase containerization of different components and deploy on IBM Cloud.Enjoy!!!!!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rajesh Gudikoti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "routes": "^2.1.0"
+  }
+}
